@@ -8,4 +8,9 @@
 
 // document.querySelector(".score").textContent = 100;
 
-// document.querySelector(".guess").value = 20;
+document.querySelector(".guess").value = 20;
+console.log(document.querySelector(".guess").value);
+
+document.querySelector(".check").addEventListener("click", function () {
+  console.log(document.querySelector(".guess").value);
+});
