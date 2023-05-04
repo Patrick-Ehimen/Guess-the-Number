@@ -1,6 +1,6 @@
-# Dice Game
+# Number Guessing Game
 
-This is a simple game of dice where two players take turns rolling a dice. The player who scores 100 points or more first, wins the game.
+This is a number guessing game where the player has to guess the secret number between 1 and 20. The player has 20 attempts to guess the number correctly. If the player is unable to guess the number in 20 attempts, they lose the game. The player's score is displayed at the top of the screen. The game also keeps track of the highest score achieved by the player.
 
 ## Features
 
@@ -8,23 +8,17 @@ This is a simple game of dice where two players take turns rolling a dice. The p
 - Clean and well-structured code with proper commenting
 - Best practices followed for performance optimization
 
-## Number Guessing Game
+## GamePlay
 
-1. At the start of the game, both players have a score of 0.
-2. Players take turns rolling a dice by clicking the "Roll Dice" button.
-3. The number rolled on the dice is added to the current player's score.
-4. If a player rolls a 1, their current score becomes 0 and their turn ends.
-5. If a player rolls any number other than 1, their current score is added to their total score.
-6. The player can choose to "Hold" their score by clicking the "Hold" button, which will add their current score to their total score and end their turn.
-7. The game ends when a player reaches a total score of 100 or more.
+1. The player has to guess the secret number between 1 and 20.
+2. The player has 20 attempts to guess the number correctly.
+3. If the player is unable to guess the number in 20 attempts, they lose the game.
+   4.The player's score is displayed at the top of the screen.
+4. The game keeps track of the highest score achieved by the player.
 
 ## Usage
 
-To run the game, simply download or clone the repository and open the index.html file in your web browser. Alternatively, you can also visit the live demo hosted at [https://jscriptdice-game.netlify.app/].
-
-## Code
-
-The game is implemented using HTML, CSS and JavaScript. The JavaScript code selects HTML elements and adds event listeners to the buttons. The `init` function initializes the game state, and the `switchPlayer` function switches the active player. The `btnRoll` event listener generates a random number between 1 and 6 and updates the current player's score. The `btnHold` event listener adds the current player's score to their total score and checks if the game has ended. The `btnNew` event listener resets the game to its initial state.
+To run the game, simply download or clone the repository and open the index.html file in your web browser. Alternatively, you can also visit the live demo hosted at [jscript-guess-the-number.netlify.app/].
 
 ## Feedback
 
